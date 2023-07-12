@@ -1,0 +1,110 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 700px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 10px;
+}
+.heading-1 {
+  color: #475569;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.para {
+  font-size: 12px;
+  color: #475569;
+  padding-left: 50px;
+  margin-top: 0px;
+}
+.blue-para {
+  color: blue;
+}
+.transaction-history-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 700px;
+  height: 300px;
+}
+.add-transaction-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-style: solid;
+  border-color: #7e858e;
+  border-radius: 8px;
+  width: 275px;
+  height: 300px;
+  border-width: 1px;
+}
+.heading-2 {
+  font-size: 15px;
+}
+.label {
+  color: #7e858e;
+  font-size: 12px;
+}
+.input {
+  width: 220px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 10px;
+  font-size: 10px;
+}
+.button {
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-style: solid;
+  border-color: #7e858e;
+  border-radius: 8px;
+  width: 375px;
+  height: 300px;
+  margin-left: 20px;
+  border-width: 1px;
+}
+.titles-container {
+  display: flex;
+  flex-direction: row;
+  min-width: 330px;
+  height: 40px;
+  border-style: solid;
+  border-color: #d7dfe9;
+  border-width: 1px;
+}
+.unordered-list-transaction-items {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+.history-text {
+  padding-left: 10px;
+  min-width: 100px;
+  font-size: 13px;
+}

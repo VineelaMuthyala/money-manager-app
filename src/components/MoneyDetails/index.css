@@ -1,0 +1,50 @@
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 15px;
+  border-style: solid;
+  border-width: 1px;
+}
+.green {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.blue {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.purple {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+.icon {
+  height: 50px;
+  width: 60px;
+  margin-top: 15px;
+}
+.balance-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 35px;
+}
+.heading {
+  font-size: 12px;
+  padding: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.amount {
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
